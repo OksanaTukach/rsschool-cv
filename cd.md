@@ -52,3 +52,5 @@
   - ##### Educational portals:
     - learn.javascript.ru
     - htmlacademy.ru
+8. #### English
+- My English level is A2 and I want to improve my English knowledge by the different educational portals.
