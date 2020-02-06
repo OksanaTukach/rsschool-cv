@@ -42,3 +42,13 @@
       reverseArrayInPlace(arrayValue);
       console.log(arrayValue);
       ```
+6. #### Experience
+- I have no any experience with projects.
+7. #### Education
+  - Finished online courses from IT company “Andersen” named: “Онлайн-курсы Andersen общий Javascript”.
+  - ##### Books:
+    - “CSS in depth” by Keith J.Grant.
+    - “Eloquent JavaScript. Third edition” Marijn Haverbeke.
+  - ##### Educational portals:
+    - learn.javascript.ru
+    - htmlacademy.ru
