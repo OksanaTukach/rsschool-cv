@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="summary">
+        <div class="photo"> <img src="photo.jpg" width="200px" height="200px" align="right"> </div>
+        <div class="summary-text">
+            <ol>
+                <li class="name">
+                    <span class="heading"> Name: </span> <br>
+                    <p>Oksana Tukach</p>
+                </li>
+                <li class="contact">
+                    <span class="heading">Contact Info:</span> <br>
+                    <p>Phone number: +375 (29) 766-91-19;<br> Email: Okstukach@gmail.com</p>
+                </li>
+                <li class ="summary-point">
+                    <span class="heading">Summary:</span> <br>
+                   <p> My goal is to start a career as a junior frontend developer. For me it is important self-development to keep  
+                    up with the times, to develop in the profession. My strengths are: commitment, high learning, punctuality, 
+                    autonomy in decision-making, desire to constantly develop. If any problem arises, I will still continue to look  
+                    for solutions and will certainly bring it to an end. Under any circumstances, I try to do everything I promised and 
+                    meet the deadlines. </p>
+                </li>
+                <li>
+                    <span class="heading">Skills:</span> <br>
+                    <p><ul>
+                        <li class="skills-heading">HTML and CSS:</li>
+                        <ul>
+                            <li>Grid layout, Flexbox, Making sense of floats</li>
+                            <li>Responsive design</li>
+                            <li>Pattern libraries</li>
+                            <li>Transitions, Transforms, Animations</li>
+                            <li>Backgrounds, shadows, and blend modes</li>
+                            <li>HTML5 and CSS3</li>
+                        </ul>
+                        <li class="skills-heading">Javascript:</li>
+                        <ul>
+                            <li>Basic</li>
+                            <li>DOM / BOM</li>
+                            <li>Module</li>
+                            <li>ECMAScript 6</li>
+                            <li>WebAPI</li>
+                            <li>Animations</li>
+                            <li>HTTP and Forms</li>
+                        </ul>
+                        <li class="skills-heading">Node.js, Git, GitHub, Photoshop, Figma</li>
+                    </ul> </p>
+                </li>
+                <li>
+                    <span class="heading">Code examples:</span>
+                    <pre>
+        function reverseArray (arr) {
+            let array = [];
+            for (let i = arr.length -1; i >= 0; i--) {
+                    array.push(arr[i]);
+        } 
+            return array; 
+        } 
+        function reverseArrayInPlace(array) {
+            for (let i = 0; i < Math.floor(array.length / 2); i++) {
+                let old = array[i];
+                array[i] = array[array.length - 1 - i];
+                array[array.length - 1 - i] = old;
+            } 
+            return array;
+        } 
+        let arrayValue = [1, 2, 3, 4, 5];
+        reverseArrayInPlace(arrayValue);
+        console.log(arrayValue); 
+                    </pre>
+                </li>
+                <li>
+                    <span class="heading">Experience:</span>
+                    <p>I have no any experience with projects.</p>
+                </li>
+                <li>
+                    <span class="heading">Education:</span>
+                    <p>
+                    <ul>
+                        <li>Finished online courses from IT company “Andersen” named: “Онлайн-курсы Andersen общий Javascript”.</li>
+                        <li>Books:</li>
+                        <ul>
+                            <li>“CSS in depth” by Keith J.Grant.</li>
+                            <li>“Eloquent JavaScript. Third edition” Marijn Haverbeke.</li>
+                        </ul>
+                        <li>Education portals:</li>
+                        <ul>
+                            <li>learn.javascript.ru</li>
+                            <li>htmlacademy.ru</li>
+                        </ul>
+                    </ul> </p>
+                </li>
+                <li>
+                    <span class="heading">English:</span>
+                    <p>My English level is A2 and I want to improve my English knowledge by the different educational portals.</p>
+                </li>
+            </ol>
+        </div>   
+    </div> 
+</body>
+</html>
