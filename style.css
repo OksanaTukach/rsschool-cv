@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.summary {
+    width: 800px;
+    background-color: rgb(248, 241, 246);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.heading {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+pre {
+    background-color: rgb(234, 244, 248);
+    width: 620px;
+}
+.summary-text {
+    padding: 15px;
+}
+.photo {
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.skills-heading {
+    text-decoration: underline;
+}
